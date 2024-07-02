@@ -140,6 +140,10 @@ E79402C516CEF1A6BB6F526A142597D4	144.54545454545456
 ![image](./info/jobs.png)
 ![image](./info/task1-job1.png)
 ![image](./info/task2-job1.png)
+![image](./info/task3-job1.png)
+![image](./info/task1-job2.png)
+![image](./info/task2-job2.png)
+![image](./info/task3-job2.png)
 
 
 
