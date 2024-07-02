@@ -25,5 +25,5 @@ replay_pid*
 .project
 .classpath
 .settings
-tempdir
-output
+tempdir/
+output/

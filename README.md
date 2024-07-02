@@ -139,6 +139,7 @@ E79402C516CEF1A6BB6F526A142597D4	0.04015151515151515
 ![image](./info/dataproc.png)
 ![image](./info/jobs.png)
 ![image](./info/task1-job1.png)
+![image](./info/task2-job1.png)
 
 
 
