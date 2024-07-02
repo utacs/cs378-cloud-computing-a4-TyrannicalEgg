@@ -21,6 +21,6 @@ public class WordCountReducer extends  Reducer<Text, TimePriceWrapper, Text, Dou
            sumCost += value.getPrice().get();
        }
        
-       context.write(text, new DoubleWritable(sumCost/sumTime/60.0));
+       context.write(text, new DoubleWritable(sumCost/sumTime*60.0));
    }
 }

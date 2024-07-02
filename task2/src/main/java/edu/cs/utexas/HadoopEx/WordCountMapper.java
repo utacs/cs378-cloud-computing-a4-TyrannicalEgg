@@ -21,7 +21,7 @@ public class WordCountMapper extends Mapper<Object, Text, Text, DoubleWritable> 
 		
 		String[] words = value.toString().split(",");
 		if (words.length != 17) {	
-			context.write(new Text("Line Errors"), counter);
+			context.write(new Text("Line Errors"), new DoubleWritable(0.1));
 			return;
 		}
 		Text taxi = new Text(words[0]);
@@ -38,7 +38,7 @@ public class WordCountMapper extends Mapper<Object, Text, Text, DoubleWritable> 
 			}
 		}
 		catch (NumberFormatException e) {
-			context.write(new Text("Line Errors"), counter);
+			context.write(new Text("Line Errors"), new DoubleWritable(0.1));
 			return;
 		}
 	}
