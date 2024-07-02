@@ -147,9 +147,9 @@ E79402C516CEF1A6BB6F526A142597D4	0.04015151515151515
 
 To compile the project and create a single jar file with all dependencies: 
 	
-```	cd task1 && mvn clean package ```
-```	cd task2 && mvn clean package ```
-```	cd task3 && mvn clean package ```
+```	cd task1 && mvn clean package ```  
+```	cd task2 && mvn clean package ```  
+```	cd task3 && mvn clean package ```  
 
 
 
@@ -158,9 +158,9 @@ Inside your shell with Hadoop
 
 Running as Java Application:
 
-```java -jar task1/target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar SOME-Text-Fiel.txt task1/tempfile task1/output``` 
-```java -jar task2/target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar SOME-Text-Fiel.txt task2/tempfile task2/output``` 
-```java -jar task3/target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar SOME-Text-Fiel.txt task3/tempfile task3/output``` 
+```java -jar task1/target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar SOME-Text-Fiel.txt task1/tempfile task1/output```  
+```java -jar task2/target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar SOME-Text-Fiel.txt task2/tempfile task2/output```  
+```java -jar task3/target/MapReduce-WordCount-example-0.1-SNAPSHOT-jar-with-dependencies.jar SOME-Text-Fiel.txt task3/tempfile task3/output```  
 
 Or has hadoop application
 
